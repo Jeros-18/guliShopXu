@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03c0b7e6-5ade-47e7-8dce-5fcfbb9b0a5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_oss/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_oss/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="21GvGC57aHRqU6ekY6vUyfNVJfK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../demo/guli" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atjh.eduService" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atjh.baseService.utils" />
+      <recent name="com.atjh.baseService.handler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\service_base\src\main\java\com\atjh\baseService" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_edu\src\main\java\com\atjh\eduService\controller" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\common_utils\src\main\java\com\atjh\commonUtils" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_edu\src\main\java\com.atjh.eduService" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.OssApplication">
+    <configuration name="CodeGenerator.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service_edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atjh.eduService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atjh.eduService" />
+      <option name="MAIN_CLASS_NAME" value="com.atjh.eduService.CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_edu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atjh.eduService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atjh.eduService.EduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OssApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service_oss" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atjh.ossService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atjh.ossService.OssApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OssApplication" />
+        <item itemvalue="Spring Boot.EduApplication" />
+        <item itemvalue="JUnit.CodeGenerator.run" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03c0b7e6-5ade-47e7-8dce-5fcfbb9b0a5d" name="Default Changelist" comment="" />
+      <created>1637580140653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637580140653</updated>
+      <workItem from="1637580154680" duration="3554000" />
+      <workItem from="1637583763549" duration="186000" />
+      <workItem from="1637584206873" duration="8100000" />
+      <workItem from="1637666487919" duration="4051000" />
+      <workItem from="1637758715130" duration="3687000" />
+      <workItem from="1637764961447" duration="1536000" />
+      <workItem from="1637829884861" duration="1190000" />
+      <workItem from="1638081354221" duration="5919000" />
+      <workItem from="1638114638387" duration="1746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#Project_Structure" timestamp="1637584683393">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1637584683393" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1638098386983">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1638098386983" />
+    <state x="290" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1637588606742">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="290" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1637588606742" />
+    <state x="548" y="291" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1637581376622">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="291" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1637581376622" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1637589292914">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1637589292914" />
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom" timestamp="1638117034687">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638117034687" />
+    <state width="1493" height="300" key="GridCell.Tab.0.center" timestamp="1638117034686">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1638117034686" />
+    <state width="1493" height="300" key="GridCell.Tab.0.left" timestamp="1638117034686">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1638117034686" />
+    <state width="1493" height="300" key="GridCell.Tab.0.right" timestamp="1638117034686">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1638117034686" />
+    <state width="1493" height="300" key="GridCell.Tab.1.bottom" timestamp="1638117034688">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1638117034688" />
+    <state width="1493" height="300" key="GridCell.Tab.1.center" timestamp="1638117034688">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1638117034688" />
+    <state width="1493" height="300" key="GridCell.Tab.1.left" timestamp="1638117034687">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1638117034687" />
+    <state width="1493" height="300" key="GridCell.Tab.1.right" timestamp="1638117034688">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="300" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1638117034688" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1637586609825">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1637586609825" />
+    <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1637582916256">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1637582916256" />
+    <state x="447" y="165" width="642" height="534" key="find.popup" timestamp="1637585472270">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="447" y="165" width="642" height="534" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1637585472270" />
+    <state x="178" y="127" key="new project wizard" timestamp="1637588787168">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="127" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1637588787168" />
+    <state x="511" y="60" key="refactoring.ChangeSignatureDialog" timestamp="1637671488935">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="511" y="60" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1637671488935" />
+  </component>
+</project>
