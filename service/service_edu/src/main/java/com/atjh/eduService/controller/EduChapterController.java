@@ -2,6 +2,7 @@ package com.atjh.eduService.controller;
 
 
 import com.atjh.commonUtils.R;
+import com.atjh.eduService.entity.EduChapter;
 import com.atjh.eduService.entity.vo.ChapterVo;
 import com.atjh.eduService.service.EduChapterService;
 import io.swagger.annotations.Api;
@@ -34,5 +35,31 @@ public class EduChapterController {
         return R.ok().data("characterList",characterList);
 
     }
+
+    @ApiOperation(value = "添加章节")
+    @PostMapping("addChapter")
+    public R addChapter(@RequestBody EduChapter eduChapter){
+        chapterService.save(eduChapter);
+        return R.ok();
+    }
+    @ApiOperation(value = "根据id删除章节")
+    @DeleteMapping("delChapter/{id}")
+    public R delChapter(@PathVariable String id){
+        chapterService.removeById(id);
+        return R.ok();
+    }
+    @ApiOperation(value = "根据id查询章节")
+    @GetMapping("getChapterById/{id}")
+    public R getChapterById(@PathVariable String id){
+        EduChapter eduChapter = chapterService.getById(id);
+        return R.ok().data("eduChapter",eduChapter);
+    }
+    @ApiOperation(value = "修改章节")
+    @PostMapping("updateChapter")
+    public R updateChapter(@RequestBody EduChapter eduChapter){
+        chapterService.updateById(eduChapter);
+        return R.ok();
+    }
+
 }
 
