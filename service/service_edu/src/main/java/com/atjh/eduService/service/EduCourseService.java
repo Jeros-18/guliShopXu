@@ -2,6 +2,7 @@ package com.atjh.eduService.service;
 
 import com.atjh.eduService.entity.EduCourse;
 import com.atjh.eduService.entity.vo.CourseInfoForm;
+import com.atjh.eduService.entity.vo.CoursePublishVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -33,4 +34,11 @@ public interface EduCourseService extends IService<EduCourse> {
      * @param courseInfoForm
      */
     void updateCourseInfo(CourseInfoForm courseInfoForm);
+
+    /**
+     * 根据课程id查询课程发布信息
+     * @param id
+     * @return
+     */
+    CoursePublishVo getCoursePublishById(String id);
 }

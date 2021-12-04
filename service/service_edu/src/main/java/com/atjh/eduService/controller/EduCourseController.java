@@ -3,6 +3,7 @@ package com.atjh.eduService.controller;
 
 import com.atjh.commonUtils.R;
 import com.atjh.eduService.entity.vo.CourseInfoForm;
+import com.atjh.eduService.entity.vo.CoursePublishVo;
 import com.atjh.eduService.service.EduCourseService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -45,6 +46,14 @@ public class EduCourseController {
     public R updateCourseInfo(@RequestBody CourseInfoForm courseInfoForm){
         courseService.updateCourseInfo(courseInfoForm);
         return R.ok();
+    }
+
+    @ApiOperation(value = "根据课程id查询课程发布信息")
+    @GetMapping("getCoursePublishById/{id}")
+    public R getCoursePublishById(@PathVariable String id){
+        CoursePublishVo coursePublishVo =
+                courseService.getCoursePublishById(id);
+        return R.ok().data("coursePublishVo",coursePublishVo);
     }
 
 }

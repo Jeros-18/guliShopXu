@@ -4,6 +4,7 @@ import com.atjh.baseService.handler.GuliException;
 import com.atjh.eduService.entity.EduCourse;
 import com.atjh.eduService.entity.EduCourseDescription;
 import com.atjh.eduService.entity.vo.CourseInfoForm;
+import com.atjh.eduService.entity.vo.CoursePublishVo;
 import com.atjh.eduService.mapper.EduCourseMapper;
 import com.atjh.eduService.service.EduCourseDescriptionService;
 import com.atjh.eduService.service.EduCourseService;
@@ -89,6 +90,14 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         courseDescription.setId(courseInfoForm.getId());
         courseDescription.setDescription(courseInfoForm.getDescription());
         courseDescriptionService.updateById(courseDescription);
+    }
+
+    //根据课程id查询课程发布信息
+    @Override
+    public CoursePublishVo getCoursePublishById(String id) {
+        CoursePublishVo coursePublishVo =
+                baseMapper.getCoursePublishById(id);
+        return coursePublishVo;
     }
 
 }
