@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
+import javax.xml.stream.events.EntityDeclaration;
+
 /**
  * <p>
  * 课程 服务实现类
@@ -66,6 +68,27 @@ public class EduCourseServiceImpl extends ServiceImpl<EduCourseMapper, EduCourse
         // 4.封装课程描述
         courseDescription.setDescription(courseDescription.getDescription());
         return courseInfoForm;
+    }
+
+    /**
+     * 修改课程信息
+     * @param courseInfoForm
+     */
+    @Override
+    public void updateCourseInfo(CourseInfoForm courseInfoForm) {
+        // 1.复制课程数据
+        EduCourse eduCourse = new EduCourse();
+        BeanUtils.copyProperties(courseInfoForm, eduCourse);
+        // 2，更新课程数据
+        int update = baseMapper.updateById(eduCourse);
+        if (update==0) {
+            throw new GuliException(20001,"修改课程失败");
+        }
+        // 4 更新课程描述
+        EduCourseDescription courseDescription = new EduCourseDescription();
+        courseDescription.setId(courseInfoForm.getId());
+        courseDescription.setDescription(courseInfoForm.getDescription());
+        courseDescriptionService.updateById(courseDescription);
     }
 
 }
