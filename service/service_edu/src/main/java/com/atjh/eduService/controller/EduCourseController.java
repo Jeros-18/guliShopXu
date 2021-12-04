@@ -2,6 +2,7 @@ package com.atjh.eduService.controller;
 
 
 import com.atjh.commonUtils.R;
+import com.atjh.eduService.entity.EduCourse;
 import com.atjh.eduService.entity.vo.CourseInfoForm;
 import com.atjh.eduService.entity.vo.CoursePublishVo;
 import com.atjh.eduService.service.EduCourseService;
@@ -55,6 +56,16 @@ public class EduCourseController {
                 courseService.getCoursePublishById(id);
         return R.ok().data("coursePublishVo",coursePublishVo);
     }
+
+    @ApiOperation(value = "根据id发布课程")
+    @PutMapping("publishCourse/{id}")
+    public R publishCourse(@PathVariable String id){
+        EduCourse eduCourse = courseService.getById(id);
+        eduCourse.setStatus("Normal");
+        courseService.updateById(eduCourse);
+        return R.ok();
+    }
+
 
 }
 
