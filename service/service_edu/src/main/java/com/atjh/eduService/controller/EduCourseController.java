@@ -29,8 +29,15 @@ public class EduCourseController {
     @ApiOperation(value = "添加课程信息")
     @PostMapping("addCourseInfo")
     public R addCourseInfo(@RequestBody CourseInfoForm courseInfoForm){
-        courseService.addCourseInfo(courseInfoForm);
-        return R.ok();
+        String courseId = courseService.addCourseInfo(courseInfoForm);
+        return R.ok().data("courseId",courseId);
+    }
+
+    @ApiOperation(value = "根据id获取课程信息")
+    @GetMapping("getCourseInfoById/{id}")
+    public R getCourseInfoById(@PathVariable String id){
+        CourseInfoForm courseInfoForm = courseService.getCourseInfoById(id);
+        return R.ok().data("courseInfo1",courseInfoForm);
     }
 
 }

@@ -17,6 +17,14 @@ public interface EduCourseService extends IService<EduCourse> {
     /**
      * 添加课程信息
      * @param courseInfoForm
+     * @return
      */
-    void addCourseInfo(CourseInfoForm courseInfoForm);
+    String addCourseInfo(CourseInfoForm courseInfoForm);
+
+    /**
+     * 根据id获取课程信息
+     * @param id
+     * @return
+     */
+    CourseInfoForm getCourseInfoById(String id);
 }
