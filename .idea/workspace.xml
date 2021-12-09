@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c0b7e6-5ade-47e7-8dce-5fcfbb9b0a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service_cms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/CmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/api/BannerApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/controller/CrmBannerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/entity/CrmBanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/mapper/CrmBannerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/mapper/xml/CrmBannerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/service/CrmBannerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/service/impl/CrmBannerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_cms/src/test/java/com/atjh/cmsservice/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atjh/commonUtils/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atjh/baseService/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/ServiceSmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/controller/SmsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/service/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/utils/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/StaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/controller/DailyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/controller/UcenterMemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/entity/Daily.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/entity/UcenterMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/DailyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/UcenterMemberMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/xml/DailyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/xml/UcenterMemberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/DailyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/UcenterMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/impl/DailyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/impl/UcenterMemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/test/java/com/atjh/statistics/CodeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduChapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourseDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduVideo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -82,25 +101,28 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atjh.smsservice.service" />
+      <recent name="com.atjh.eduService.entity.vo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.atjh.eduService" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\service_base\src\main\java\com\atjh\baseService" />
-      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_edu\src\main\java\com\atjh\eduService\controller" />
-      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\common_utils\src\main\java\com\atjh\commonUtils" />
-      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_edu\src\main\java\com.atjh.eduService" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atjh.statistics" />
       <recent name="com.atjh.cmsservice" />
       <recent name="com.atjh.baseService.utils" />
       <recent name="com.atjh.baseService.handler" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atjh.eduService.entity.vo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_sms\src\main\java\com\atjh\smsservice\utils" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\common_utils\src\main\java\com\atjh\commonUtils\utils" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\service_base\src\main\java\com\atjh\baseService\config" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\common\service_base\src\main\java\com\atjh\baseService" />
+      <recent name="D:\aprograme\2021版在线教育\demo2\guli_parent\service\service_edu\src\main\java\com\atjh\eduService\controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.CmsApplication">
+  <component name="RunManager" selected="JUnit.CodeGenerator.run (2)">
     <configuration name="CodeGenerator.run (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="service_cms" />
       <extension name="coverage">
@@ -111,6 +133,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.atjh.cmsservice" />
       <option name="MAIN_CLASS_NAME" value="com.atjh.cmsservice.CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeGenerator.run (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service_statistics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atjh.statistics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atjh.statistics" />
+      <option name="MAIN_CLASS_NAME" value="com.atjh.statistics.CodeGenerator" />
       <option name="METHOD_NAME" value="run" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -166,8 +204,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atjh.smsservice.ServiceSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CodeGenerator.run (2)" />
         <item itemvalue="JUnit.CodeGenerator.run (1)" />
         <item itemvalue="Spring Boot.EduApplication" />
         <item itemvalue="JUnit.CodeGenerator.run" />
@@ -198,7 +244,7 @@
       <workItem from="1638671109216" duration="1408000" />
       <workItem from="1638790260510" duration="632000" />
       <workItem from="1638791565622" duration="3475000" />
-      <workItem from="1639042354369" duration="791000" />
+      <workItem from="1639042354369" duration="4942000" />
     </task>
     <servers />
   </component>
@@ -229,38 +275,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1638791443902" />
-    <state width="1493" height="304" key="GridCell.Tab.0.bottom" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.0.center" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.0.center" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.0.left" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.0.left" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.0.right" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.0.right" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.1.bottom" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.1.bottom" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.1.center" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.1.center" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.1.left" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.1.left" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
-    <state width="1493" height="304" key="GridCell.Tab.1.right" timestamp="1639042995858">
+    <state width="1493" height="222" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
+    <state width="1493" height="222" key="GridCell.Tab.1.right" timestamp="1639052854623">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="304" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1639042995858" />
+    <state width="1493" height="222" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1639052854623" />
     <state width="1493" height="277" key="GridCell.Tab.2.bottom" timestamp="1638641677764">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -281,18 +327,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1637586609825" />
-    <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1637582916256">
+    <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1639052971643">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1637582916256" />
+    <state x="533" y="135" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1639052971643" />
     <state x="447" y="165" width="782" height="600" key="find.popup" timestamp="1638796204120">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="447" y="165" width="782" height="600" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1638796204120" />
-    <state x="178" y="127" key="new project wizard" timestamp="1638794239904">
+    <state x="178" y="127" key="new project wizard" timestamp="1639052546857">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="127" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1638794239904" />
+    <state x="178" y="127" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1639052546857" />
     <state x="511" y="60" key="refactoring.ChangeSignatureDialog" timestamp="1637671488935">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
