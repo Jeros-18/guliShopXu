@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c0b7e6-5ade-47e7-8dce-5fcfbb9b0a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/atjh/commonUtils/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/atjh/baseService/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_sms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/ServiceSmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/controller/SmsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_sms/src/main/java/com/atjh/smsservice/utils/RandomUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/StaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/controller/DailyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/controller/UcenterMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/entity/Daily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/entity/UcenterMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/DailyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/UcenterMemberMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/xml/DailyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/mapper/xml/UcenterMemberMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/DailyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/UcenterMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/impl/DailyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/service/impl/UcenterMemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service_statistics/src/test/java/com/atjh/statistics/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduChapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourseDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduCourseDescription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_edu/src/main/java/com/atjh/eduService/entity/EduVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/entity/CrmBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_cms/src/main/java/com/atjh/cmsservice/entity/CrmBanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/entity/UcenterMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service_statistics/src/main/java/com/atjh/statistics/entity/UcenterMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +213,7 @@
       <workItem from="1638671109216" duration="1408000" />
       <workItem from="1638790260510" duration="632000" />
       <workItem from="1638791565622" duration="3475000" />
-      <workItem from="1639042354369" duration="4942000" />
+      <workItem from="1639042354369" duration="5210000" />
     </task>
     <servers />
   </component>
