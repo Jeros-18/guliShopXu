@@ -10,6 +10,7 @@
         <module name="service_oss" />
         <module name="common_utils" />
         <module name="service_edu" />
+        <module name="service_cms" />
         <module name="service_base" />
       </profile>
     </annotationProcessing>
@@ -20,6 +21,7 @@
       <module name="common_utils" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service_base" options="-parameters" />
+      <module name="service_cms" options="-parameters" />
       <module name="service_edu" options="-parameters" />
       <module name="service_oss" options="-parameters" />
     </option>
